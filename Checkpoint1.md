@@ -62,6 +62,7 @@ A tela de perfil deixar de ser fixa e passar a receber um nome via navegação, 
 Esse commit mostra como utilizar parâmetros opcionais de forma dinâmica, possibilitando a personalização da tela sem que ela dependa obrigatoriamente desses valores.
 
 1. Alteração da Rota
+   
 "route = "pedidos?cliente={cliente}"
 
  - Transforma o parâmetro em opcioal
@@ -69,6 +70,7 @@ Esse commit mostra como utilizar parâmetros opcionais de forma dinâmica, possi
  --------------------
 
 2. Definição do argumento opcional
+   
 "arguments = listOf(navArgument("cliente") {
     defaultValue = "Cliente Genérico"
 })"
